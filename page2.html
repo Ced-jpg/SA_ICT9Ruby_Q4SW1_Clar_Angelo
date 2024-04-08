@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Yen Conversion</title>
+</head>
+<body>
+	<style>
+    	        
+        body {
+    font-family: Arial, sans-serif;
+    background-image: url('yen.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 44px;
+}
+p {
+	font-size: 30px;
+}
+    </style>
+
+
+	<h1>Philippine Peso (₱) to Japanese Yen (¥)</h1>
+	<p>₱100 to Yen</p>
+
+	<p id="demo"></p>
+ <script>
+ 	let peso, conrate, yen;
+ 	peso=100;
+ 	conrate=2.68;
+ 	yen = peso * conrate;
+
+document.getElementById("demo").innerHTML = yen;
+</script>
+
+<a href="file:///C:/Users/Chix/Desktop/ICT%20Image%20and%20Table/index.html" class="btn btn-warning">Back to main page</a>
+</body>
+</html>
